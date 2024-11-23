@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 
 export default function Navbar() {
     return(
@@ -6,7 +6,8 @@ export default function Navbar() {
             <header>
                 <nav className="bg-blue-900 h-16 flex items-center justify-between">
                     <div className="flex items-center ml-6">
-                        <h1 className="text-blue-300 ml-20 font-bold font-700 text-2xl">Tution Free Educational Program on Latest Technologies</h1>
+                        <img className="h-28 w-19 pt-8  pl-28" src="https://www.governorsindh.com/_next/static/media/logo.9ff76f62.png" />
+                        <h1 className="text-blue-300 ml-20 font-bold font-700 text-2xl pl-18">Tution Free Educational Program on Latest Technologies</h1>
                     </div>
                     <ul className="flex space-x-12 text-white mr-6">
                         <li>Home</li>
